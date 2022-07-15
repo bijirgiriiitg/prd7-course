@@ -1,0 +1,26 @@
+.container{
+ 
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E9F0EF;
+    padding: 0%;
+    border-radius: 12px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+  .container{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    height: 100%;
+    width: 85%;
+  }
+
+}
